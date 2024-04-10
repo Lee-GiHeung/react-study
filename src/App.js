@@ -1,12 +1,15 @@
 
 import './App.css';
-import Component1 from './Component1';
+import Header from './Header';
+import Home from './Home';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <h2>hello react</h2>
-      <Component1 />
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }
